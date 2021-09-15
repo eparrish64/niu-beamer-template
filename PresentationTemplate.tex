@@ -1,0 +1,83 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{epstopdf}
+\usepackage{textgreek}
+\usepackage{physics}
+\usepackage{appendixnumberbeamer}
+% \graphicspath{{/Users/eparrish/Work/HPlusTauNu/Plots/taulep_v06_Run2_June_4_2019/}}
+\usetheme{NIU}
+
+% suppress navigation bar
+\beamertemplatenavigationsymbolsempty
+
+% Title
+\title[TITLE]
+{TITLE}
+
+% Sub Title
+% \subtitle{Sub Title}
+
+% Author
+\author[YOUR NAME HERE]
+{\texorpdfstring{\underline{YOUR NAME HERE}}{YOUR NAME HERE}\inst{\dag}}
+\hypersetup{pdfauthor={YOUR NAME HERE}}
+
+% - Give the names in the same order as the appear in the paper.
+% - Use \and to separate authors name
+% - Use the \inst{?} command only if the authors have different affiliation.
+
+\institute[NIU] {\inst{\dag}Northern Illinois University, USA}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date{DATE}
+% \subject{} % only for pdf info
+
+% if you want to disable section, subsection title page display, uncomment accordingly 
+\AtBeginSection{}
+\AtBeginSubsection{}
+
+% Title Graphics add befor titlepage
+\titlegraphic{\includegraphics[height=2.5cm]{NIU_logo.eps}}
+
+
+\begin{document}
+\frame{\titlepage}
+
+% add logo after title page, so it does show on title page
+\logo{\includegraphics[trim=1cm 2.5cm 1cm 0,clip,width=1.6cm]{NIU_logo.eps}}
+% \logo{\includegaraphics}
+
+% Let's get started
+
+% \begin{frame}<beamer>{Table of Contents}
+%     \tableofcontents
+% \end{frame}
+
+% Basic frame with list
+\begin{frame}{SLIDE TITLE}
+\begin{itemize}
+\item{Hello}
+\end{itemize}
+\end{frame}
+
+
+\section{Introduction}
+
+
+\section{Conclusion}
+
+% Basic slide including an image
+\begin{frame}{Thank You}
+\centering
+\includegraphics[height=7.4cm]{CERN_globe.jpeg} %
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+
+\section{Backup }
+
+\end{document}
